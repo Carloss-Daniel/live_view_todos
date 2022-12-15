@@ -27,4 +27,5 @@ defmodule LiveViewTodosWeb.TodoLive do
   defp fetch(socket) do
     assign(socket, todos: Todos.list_todos())
   end
+
 end
